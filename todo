@@ -1,0 +1,76 @@
+
+1. ANALYSE & CONCEPTION
+    .Identifier les entités : Ville, Besoin, Don, Attribution (T1)
+    .Définir les types de besoins (Nature, Matériaux, Argent) (S2)
+    .Définir les règles métier (S2)
+    .Préparer le script SQL (T1)
+
+
+2. BASE DE DONNÉES(SQL)
+    .Créer la base bngrc (T1)
+    .Créer la table villes (T1)
+    .Créer la table besoins (T1)
+    .Créer la table dons (T1)
+    .Créer la table attributions (T1)
+    .Définir les clés étrangères (T1)
+    .Insérer des données de test (T1)
+
+3. BACKEND (LOGIQUE MÉTIER)
+    .CRUD des besoins (S2)
+    .CRUD des dons (S2)
+    .Lister les besoins par ville (S2)
+    .Lister les dons (S2)
+    .Implémenter le dispatch automatique (S2)
+    .Trier les dons par date (S2)
+    .Mettre à jour les quantités restantes (S2)
+    .Empêcher les dépassements (S2)
+
+4. FRONTEND
+    .Créer le tableau de bord (N3)
+    .Afficher les villes (N3)
+    .Afficher les besoins par ville (N3)
+    .Afficher les dons attribués (N3)
+    .Page gestion villes (N3)
+    .Page gestion besoins (N3)
+    .Page gestion dons (N3)
+    .Page simulation dispatch (N3)
+
+5. CALCULS
+    .Total besoins par ville (S2)
+    .Valeur totale (quantité × prix unitaire) (S2)
+    .Total dons reçus (S2)
+    .Reste à satisfaire (S2)
+    .Statistiques globales (S2 + N3)
+
+6. SÉCURITÉ & VALIDATION
+    .Validation des formulaires (S2)
+    .Vérification quantités positives (S2)
+    .Protection contre injection SQL (T1)
+    .Gestion des erreurs (S2)
+
+7. TESTS
+    .Test ajout ville (T1)
+    .Test ajout besoin (S2)
+    .Test ajout don (S2)
+    .Test dispatch complet (S2)
+    .Test cas : plus de dons que besoins (S2)
+    .Test cas : plus de besoins que dons (S2)
+    .Test affichage interface (N3)
+
+8. DOCUMENTATION & PRÉSENTATION
+    .Expliquer le MCD (T1)
+    .Expliquer la logique de dispatch (S2)
+    .Préparer la démonstration orale (N3)
+    .Préparer les captures d’écran (N3)
+
+
+Tiavina T1 :
+    .Base de donnees
+    .Scripte SQL
+
+Sandratra S2 :
+    .Backend + logique dispatch
+
+Narindra N3 :
+    Frontend + Dashboard + Design
+
